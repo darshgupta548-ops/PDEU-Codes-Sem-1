@@ -14,7 +14,7 @@ int main(){
         if(num > largest){
             largest = num;
         }       
-         else if(num < smallest) {
+        if(num < smallest) {
             smallest = num;
         }
     }
