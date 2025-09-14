@@ -9,7 +9,6 @@ int main(){
 
 
     for(int i=2; i<=10; i++){
-        printf("Enter A Number\n");
         scanf("%d", &num);
         if(num > largest){
             largest = num;
@@ -20,4 +19,5 @@ int main(){
     }
     printf("The largest Number is %d and smallest number is %d", largest, smallest);
     return 0;
+
 }
